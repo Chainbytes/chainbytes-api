@@ -1,0 +1,28 @@
+{
+  "name": "chainbytes-api",
+  "version": "0.0.1",
+  "description": "Modules for using Chainbytes API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chainbytes/chainbytes-api.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "atm"
+  ],
+  "author": "Eric Grill <eric@chainbytes.com> (http://www.chainbytes.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Chainbytes/chainbytes-api/issues"
+  },
+  "homepage": "https://github.com/Chainbytes/chainbytes-api#readme",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "dotenv": "^16.0.3",
+    "request": "^2.88.2"
+  }
+}
